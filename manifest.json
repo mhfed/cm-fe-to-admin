@@ -1,9 +1,9 @@
 {
     "name": "FE2Admin",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "description": "FE2Admin",
     "permissions": [],
-    "author": "duc1607",
+    "author": "mhfed",
     "background": {},
     "content_scripts": [
         {
