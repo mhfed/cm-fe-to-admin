@@ -1,0 +1,38 @@
+{
+    "name": "FE2Admin",
+    "version": "1.0.0",
+    "description": "FE2Admin",
+    "permissions": [],
+    "author": "duc1607",
+    "background": {},
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*.coolmate.abc/*",
+                "https://*.coolmate.abc/*",
+                "http://*.coolmate.io/*",
+                "https://*.coolmate.io/*",
+                "http://*.coolmate.me/*",
+                "https://*.coolmate.me/*",
+                "http://*.localhost/*"
+            ],
+            "all_frames": true,
+            "css": [
+                "jquery/jquery-ui.min.css",
+                "style.css"
+            ],
+            "js": [
+                "jquery/jquery-3.5.1.min.js",
+                "jquery/jquery-ui.min.js",
+                "contentscript.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "manifest_version": 3,
+    "icons": {
+        "128": "images/icon.png",
+        "16": "images/icon.png",
+        "48": "images/icon.png"
+    }
+}

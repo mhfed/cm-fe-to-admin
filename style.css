@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Sarabun-Regular';
+    src: url("chrome-extension://__MSG_@@extension_id__/Sarabun-Regular.ttf");    ;
+}
+
+.admin-btn {
+    width: 80px;
+    display: block;
+    text-align: center;
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: 0;
+    border-radius: 1rem;
+    transition: all 0.2s ease 0s;
+    font-size: 12px;
+    font-weight: normal;
+    width: 88px;
+    display: inline-block;
+}
+
+.admin-collection-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background-color: pink;
+    color: black;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 1rem;
+    transition: all 0.2s ease 0s;
+    font-size: 12px;
+    font-weight: normal;
+}
